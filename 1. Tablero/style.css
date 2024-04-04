@@ -1,0 +1,43 @@
+body{ 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./tablero.jpg);
+}
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+.tablero{
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tablero td{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    position: relative;
+}
+.negro{
+    background-color: #000;
+}
+.celeste{
+    background-color: #add8e6;
+}
+.ficha{
+    border-radius: 50%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    top: 5px;
+    left: 5px;
+}
+.amarilla{
+    background-color: #ffcc00;
+}
+h1{
+    color: #fff;
+}

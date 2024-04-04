@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../2.\ Escalera/escalerafondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo {
+    text-align: center;
+}
+.contenedor-escalera {
+    text-align: left;
+    margin: 0 auto; 
+    width: fit-content; 
+}
+.escalera {
+    margin-top: 20px;
+    border-collapse: collapse; 
+}
+.piso {
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    line-height: 20px;
+    color: black;
+    text-align: center; 
+    border: 1px solid black;
+}
