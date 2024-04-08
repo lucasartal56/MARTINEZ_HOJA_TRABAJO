@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Damas</title>
     <link rel="stylesheet" href="../1. Tablero/style.css">
 </head>
 <body>
