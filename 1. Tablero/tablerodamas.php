@@ -23,11 +23,29 @@
                     $color = calcularColor($i, $j);
                     echo "<td class='$color'>";
                    
-                    if ($color === 'negro' && ($i < 6)) {
+                    if ($color === 'negro' && ($i <= 2)) {
                      
-                        $claseFicha = ($i < 3) ? 'ficha' : 'ficha amarilla'; 
+                        $claseFicha = 'ficha';
                         echo "<div class='$claseFicha'></div>";
                     }
+                    if ($color === 'negro' && ($i>=3 && $i <=5)) {
+                     
+                        $claseFicha = 'fichaamarilla';    
+                        echo "<div class='$claseFicha'></div>";
+                    }
+
+                    if($i === 2 && $j === 3){
+                        $claseFicha = 'fichavacia';
+                        echo "<div class='$claseFicha'></div>";
+    
+    
+                        }
+                        if($i === 7 && $j === 3){
+                        $claseFicha = 'ficha';
+                        echo "<div class='$claseFicha'></div>";
+    
+    
+                        }
                     echo "</td>";
                 }
                 echo "</tr>";
@@ -37,3 +55,4 @@
     </div>
 </body>
 </html>
+
